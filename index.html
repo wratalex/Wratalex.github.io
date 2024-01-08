@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+<header id="header">
+    <script src="loadHeader.js"></script>
+</header>
+
+<div class="accueil" id="accueil">
+  <strong><h1>Alexandre Vallet</h1></strong>
+    <div class="reseau">
+        <a href="https://www.linkedin.com/in/alexandre-vallet-63a72b296/"><img src="images/logo/Linkedin.png" alt="Linkedin"></a>
+        <a href="https://github.com/wratalex"><img src="images/logo/Github.png" alt="github"></a>
+        <a href="mailto:alexandre.vallet.04@gmail.com"><img src="images/logo/email.png" alt="email"></a>
+    </div>
+    <button class="cv"><a href="CV%20Vallet%20Alexandre.pdf" download>Télécharger mon CV</a></button>
+
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slider-1" src="images/Clicker.jpg" alt="image du cookie clicker">
+                <img id="slider-2" src="images/Demineur.png" alt="image du Demineur">
+                <img id="slider-3" src="images/JOParis.png" alt="image du site sur les Jo de Paris">
+                <img id="slider-4" src="images/TraverseDesert.jpg" alt="image du jeu Traversé du désert">
+                <img id="slider-5" src="images/Flatcraft.png" alt="image de flatcraft">
+                <img id="slider-6" src="images/Marathon.png" alt="Marathon du web">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+                <a href="#slider-4"></a>
+                <a href="#slider-5"></a>
+                <a href="#slider-6"></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="presentation" id="presentation">
+    <h2>Présentation</h2>
+    <p>Je suis actuellement en 2eme année de BUT Informatique à Lens. <br/>
+        Je suis passionné par l'informatique depuis mon plus jeune âge et j'ai décidé de me lancer dans cette formation pour en faire mon métier. <br/>
+        Je suis quelqu'un de très motivé, <br/>
+        j'aime apprendre de nouvelles choses.</p>
+    <h3>Mes compétences</h3>
+    <div class="skills" id="skills">
+        <div class="skill">
+            <img src="images/logo/Fedora.png" alt="Fedora">
+            <p>Fedora</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Flask.png" alt="Flask">
+            <p>Flask</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Git.png" alt="Git">
+            <p>Git</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Github.png" alt="Github">
+            <p>Github</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Gitlab.png" alt="Gitlab">
+            <p>Gitlab</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Laravel.png" alt="Laravel">
+            <p>Laravel</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/SQL.png" alt="SQL">
+            <p>SQL</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/Python.png" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/PHP.png" alt="PHP">
+            <p>PHP</p>
+        </div>
+        <div class="skill">
+            <img src="images/logo/PostgreSQL.png" alt="PostgreSQL">
+            <p>PostgreSQL</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="projet" id="projet">
+    <h2>Mes projets</h2>
+    <div class="card-container">
+
+        <div class="card">
+            <img src="images/Clicker.jpg" alt="Coockie-Clicker">
+            <div class="card-content">
+                <h3>Cookie Clicker</h3>
+                <p>Coockie Clicker est un projet personnel réalisé en java fx. L'objectif est de cliquer sur le cookie pour augmenter son score. Avec le score on peut acheter des multiplicateurs qui fait augmenter le score plus rapidement lorsque l'on clique.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Demineur.png" alt="Demineur">
+            <div class="card-content">
+                <h3>Demineur</h3>
+                <p>Le démineur est un projet scolaire réalisé en java fx. L'objectif  est de localiser des mines cachées dans une grille représentant un champ de mines virtuel, avec pour seule indication le nombre de mines dans les zones adjacentes.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/JOParis.png" alt="JO_Paris">
+            <div class="card-content">
+                <h3>JO Paris</h3>
+                <p>JO Paris est un projet scolaire réalisé en laravel. On peut créer un compte et se connecter. Une fois connecté, on peut créer un sport, uniquement le créateur peut le modifier, supprimer et ajouter une image. Il y a également des comptes administrateurs qui permettent de modifier et supprimer tout les sports.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/TraverseDesert.jpg" alt="TraverseDesert">
+            <div class="card-content">
+                <h3>Traversé du désert</h3>
+                <p>La traversé du désert est projet scolaire en python sans interface graphique. Le but est de traversé le désert sans se faire attrapé. Pour cela on a plusieurs options car il faut faire attention a la soif et la fatigue du chameau. La partie se termine lorsque le joueur a parcouru les 300km ou qu'il a été attrapé.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Flatcraft.png" alt="Flatcraft">
+            <div class="card-content">
+                <h3>Flatcraft</h3>
+                <p>Flatcraft est un projet scolaire en java fx. L'objectif est de recréer un minecraft en 2d, avec une base donnée. Il y a les mêmes dimensions que minecraft.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Marathon.png" alt="Marathon du web">
+            <div class="card-content">
+                <h3>Marathon du web</h3>
+                <p>Le marathon du web est un evenement organisé par l'IUT de Lens ou des étudiants de MMI et Informatique sont en groupe pendant 2 jours. L'objectif était de faire un site ou on peut créer et lire des histoires où on est le héros.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
