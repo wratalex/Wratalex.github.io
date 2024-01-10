@@ -71,9 +71,6 @@ header{
     opacity: 1;
 }
 
-.presentation{
-
-}
 
 h2{
     text-align: center;
@@ -286,6 +283,7 @@ h1:hover {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 body{
     margin: 0;
