@@ -4,7 +4,6 @@ window.onload = function() {
         .then(data => {
             document.getElementById('header').innerHTML = data;
 
-            // Add the event listeners after the header content is loaded
             document.querySelectorAll('header a').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
